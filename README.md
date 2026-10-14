@@ -19,7 +19,7 @@ How should an analyst handle an inbound distributor purchase order that reaches 
 | Duplicate EDI 850 replay | Duplicate order, shipment, or invoice | Validate idempotency key and correlate existing ERP order |
 | Price variance | Margin or invoicing dispute | Confirm approved contract, effective dates and extended amounts |
 
-Each scenario updates a simulated comparison table, four quality checks, a structured incident record and case-specific UAT criteria. The **Apply proposed fix** control only represents a proposed resolution in the local display. It does not process orders or change real data.
+Each scenario updates a simulated comparison table, four quality checks, corrected displayed values, a structured incident record and case-specific UAT criteria. The **Apply proposed fix** control only represents a proposed resolution in the local display. It does not process orders or change real data.
 
 ## What this demonstrates
 
@@ -32,7 +32,7 @@ Each scenario updates a simulated comparison table, four quality checks, a struc
 
 ## Design and technology
 
-A cinematic, high-contrast, scroll-led editorial experience influenced by contemporary motion-design websites. Implemented with **semantic HTML, responsive CSS and vanilla JavaScript**. Motion includes a requestAnimationFrame canvas network, IntersectionObserver scroll reveals, an animated progress rail and tactile scenario selection. Accessibility accommodations include keyboard-focus states, descriptive labels and `prefers-reduced-motion` handling.
+A cinematic, high-contrast editorial experience with Boon-inspired image composition and typography, and a SureWerx-inspired black, white and orange palette. Includes a responsive portrait and introduction section for Felipe. Implemented with **semantic HTML, responsive CSS and vanilla JavaScript**. Interactions include an animated progress rail, scenario selection, proposed corrections and reset. Content remains visible without animation or JavaScript. Accessibility accommodations include keyboard-focus states, descriptive labels and `prefers-reduced-motion` handling.
 
 No frontend framework, build pipeline, database, API key or vendor integration required.
 
@@ -53,3 +53,12 @@ Then visit `http://localhost:8000`.
 ---
 
 [Felipe Mattos on GitHub](https://github.com/felipervm) · [LinkedIn](https://www.linkedin.com/in/felipervm/)
+
+## Visual references and assets
+
+- UI/UX composition reference: https://www.boonglobal.io/
+- Brand palette and industrial imagery: https://surewerx.com/
+- `assets/logistics.jpg`: public SureWerx image, https://media.surewerx.com/transform/86d6fbea-4d85-4cb7-80bd-22473d453c9b/MC201_UD
+- `assets/felipe.jpg`: portrait supplied by Felipe for this portfolio.
+
+Company photography and branding remain the property of their respective owners. This is an independent application portfolio, not an official company website.
